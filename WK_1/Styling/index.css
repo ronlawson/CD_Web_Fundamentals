@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background: black;
+    color: white;
+}
+
+h1 span {
+    color: turquoise;
+}
+
+h2 {
+    background: rebeccapurple;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    background: skyblue;
+    color: darkslateblue;
+    text-decoration: underline;
+    text-align: right;
+}
