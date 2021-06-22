@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin-left: 100px 50px;
+}
+
+.search {
+    background: white;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 10px;
+    width:150px;
+    height: 25px;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.add {
+    background: turquoise;
+    color: white;
+    font-size: xx-large;
+    border-radius: 50%;
+    border: 1px none turquoise;
+    margin: 10px 5px;
+    width: 40px;
+    
+}
+
+.new-account {
+    background: blue;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 2px black;
+    margin: 10px 5px;
+    width: 180px;
+    height: 40px;
+}
