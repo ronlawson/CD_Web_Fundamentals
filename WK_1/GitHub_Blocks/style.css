@@ -1,0 +1,42 @@
+.top {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+img {
+    height: 200px;
+    margin: 5px;
+}
+.flex-row-1 {
+    margin: 50px;
+    padding: 50px;
+    border: inset;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    
+    
+}
+.flex-row-2 {
+    margin: 50px;
+    padding: 50px;
+    border: inset;
+    background-color: rgb(155, 21, 21);
+    flex-wrap: wrap;
+    
+}
+.flex-row-3 {
+    margin: 50px;
+    padding: 50px;
+    border: inset;
+    background-color: rgb(97, 177, 220);
+    
+}
+
