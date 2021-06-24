@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: ;
+}
+
+.nav{
+    display:flex;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 100px;
+    width: 100%;
+    height: 50px;
+}
+.nav-title {
+    font-family: 'Roboto', sans-serif;
+} 
+.btn{
+    background-color: rgb(76, 154, 173);
+    color: white;
+    border: 1px solid black;
+    padding-left: 2px;
+    width: 80px;
+    margin-left: 100px;
+}
+.active{
+    color: white;
+    font-weight: bolder;
+}
+a{
+    text-decoration:none;
+    color: lightgrey;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.user-box {
+    width: 300px;
+    height: 265px;
+    border: 2px solid rgb(197, 195, 195);
+    margin: 20px 100px;
+}
+
+.user-top {
+    height: 70px;
+    width:100%;
+    background-color: rgb(7, 160, 183);
+    box-shadow: 0 0 0 2px rgb(7, 160, 183);
+}
+
+.profile-pic {
+    background-color: white;
+    border-radius: 50%;
+    margin: 35px 20px;
+    box-shadow: 0 0 0 4px #e9e8e8;
+    border: 4px solid black;   
+    width: 25%;
+}
+
+.user-main{
+    display: inline;
+}
+
+.user-bio {
+    margin: 55px 20px;
+}
+
+.user-bio > p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.user-bio > a {
+    text-decoration: underline;
+    color: #2C79E4
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.map-marker {
+    width: 10px;
+    height: 15px;
+    vertical-align: center
+    ;
+    /*margin: 10px;*/
+}
+span {
+    line-height: 30px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px;
+}
+
+.gear {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: center;
+}
+
+a {
+    color: #c1c2c4;
+    margin-left: 3px;
+    font-size: 12px;
+    vertical-align: center;
+    font-weight: bold;
+}
+
+.ed-box {
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(197, 195, 195);
+    margin: 20px 100px;
+}
+
+.ed-top {
+    background: rgb(20, 20, 20);
+    color: white;
+    height: 30px;
+    width:100%;
+    background-color: rgb(48, 51, 51);
+    box-shadow: 0 0 0 2px rgb(48, 51, 51);
+}
+
+.ed-info :nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.ed-info :nth-child(2) {
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ed-info :nth-child(3) {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.connection-request-box {
+    width: 250px;
+    height: 200px;
+    border: 2px solid rgb(197, 195, 195);
+    margin: 20px 100px;
+    display: ;
+    
+}
+
+.connection-request-top {
+    background: rgb(20, 20, 20);
+    color: white;
+    height: 30px;
+    width:100%;
+    background-color: rgb(48, 51, 51);
+    box-shadow: 0 0 0 2px rgb(48, 51, 51);
+    text-align: center;
+}
+
+.connection-request-top > h3 {
+    background: rgb(196, 195, 195);
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.connection-request-top > h4 {
+    margin-bottom: 10px;
+}
+
+.connection-request-imgs > img{
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.connection-request-select > img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.your-connections-box {
+    width: 250px;
+    height: 320px;
+    border: 2px solid rgb(197, 195, 195);
+    margin: 20px 100px;
+    display: ;
+
+}
+
+.your-connections-top {
+    background: rgb(20, 20, 20);
+    color: white;
+    height: 30px;
+    width:100%;
+    background-color: rgb(48, 51, 51);
+    box-shadow: 0 0 0 2px rgb(48, 51, 51);
+    text-align: center;
+
+}
+
+.top-connections > img{
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 30px;
+}
