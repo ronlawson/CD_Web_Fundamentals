@@ -4,9 +4,8 @@
     padding: 0px;
 }
 
-.container {
-    display: ;
-}
+/* .container {
+} */
 
 .nav{
     display:flex;
@@ -165,7 +164,6 @@ a {
     height: 200px;
     border: 2px solid rgb(197, 195, 195);
     margin: 20px 100px;
-    display: ;
     
 }
 
@@ -209,7 +207,6 @@ a {
     height: 320px;
     border: 2px solid rgb(197, 195, 195);
     margin: 20px 100px;
-    display: ;
 
 }
 
