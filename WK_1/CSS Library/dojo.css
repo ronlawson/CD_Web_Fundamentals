@@ -1,0 +1,96 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+  background: white;
+  color: teal;
+  border: 1px solid teal;
+  border-radius: 10px;
+  width:150px;
+  height: 25px;
+  margin: 10px 5px;
+}
+
+.btn {
+  background: turquoise;
+  color: white;
+  font-size: xx-large;
+  border-radius: 50%;
+  border: 1px none turquoise;
+  margin: 10px 5px;
+  width: 40px;
+}
+
+.btn {
+  background: blue;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 2px black;
+  margin: 10px 5px;
+  width: 180px;
+  height: 40px;
+}
+
+.col {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: coral;
+}
+.col-2 {
+  flex: 2;
+  padding: 20px;
+  margin: 10px;
+  background-color: cadetblue;
+}
+.col-3 {
+  flex: 3;
+  padding: 20px;
+  margin: 10px;
+  background-color: cadetblue;
+}
+
+.row {
+  display: flex;
+}
+
+.nav{
+  display:flex;
+  background-color: rgb(26, 25, 25);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+.nav-title {
+  font-family: 'Roboto', sans-serif;
+} 
+.btn{
+  background-color: rgb(136, 192, 214);
+  color: white;
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+.active{
+  color: white;
+  font-weight: bolder;
+}
+a{
+  text-decoration:none;
+  color: lightgrey;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
