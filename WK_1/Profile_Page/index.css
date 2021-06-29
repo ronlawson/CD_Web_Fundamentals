@@ -1,11 +1,20 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
+    font-size: 100%;
+    list-style: none;
+    height: auto;
+    width: 1200px;
 }
 
-/* .container {
-} */
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
 
 .nav{
     display:flex;
@@ -174,7 +183,7 @@ a {
     width:100%;
     background-color: rgb(48, 51, 51);
     box-shadow: 0 0 0 2px rgb(48, 51, 51);
-    text-align: center;
+
 }
 
 .connection-request-top > h3 {
@@ -207,10 +216,9 @@ a {
     height: 320px;
     border: 2px solid rgb(197, 195, 195);
     margin: 20px 100px;
-
 }
 
-.your-connections-top {
+.your-connections-top{
     background: rgb(20, 20, 20);
     color: white;
     height: 30px;
@@ -218,6 +226,21 @@ a {
     background-color: rgb(48, 51, 51);
     box-shadow: 0 0 0 2px rgb(48, 51, 51);
     text-align: center;
+}
+
+.your-connections-top > h3{
+        background: rgb(196, 195, 195);
+        color: black;
+        border-radius: 50%;
+        width: 25px;
+        text-align: center;
+        vertical-align: middle;
+
+}
+
+.your-connections-top > h4{
+    margin-bottom: 10px;
+    color: white;
 
 }
 
@@ -226,3 +249,4 @@ a {
     margin-right: 20px;
     width: 30px;
 }
+
