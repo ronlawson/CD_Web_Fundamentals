@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    
+}
+
+.navbar {
+    background: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+input {
+    width: 400px;
+}
+
+#loginBtn {
+    background: blue;
+    color: white;
+    border: 2px solid black;
+    height: 20px;
+    width: 60px;
+}
+
+.main {
+    margin: 30px auto;
+    width: 1000px;
+    display: flex;
+    
+}
+
+.defBox-1 {
+    border: 3px solid black;
+    height: 200px;
+    width: 800px;
+    margin-bottom: 10px;
+
+}
+
+#likesBtn {
+    background: gold;
+    color: black;
+}
+
+.btnLikes {
+    background: gold;
+    color: black;
+}
+
+#defBtn {
+    background: rgb(13, 196, 13);
+    color: black;
+    text-align: center;
+    width: 150px;
+
+}
+
+.sideBox {
+    border: 3px solid black;
+    height: 130px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.defBox-2 {
+    border: 3px solid black;
+    height: 200px;
+    width: 785px;
+    margin-left: 100px;
+}

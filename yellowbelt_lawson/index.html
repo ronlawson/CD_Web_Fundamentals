@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>EasyBay</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Just<span class="orange-text">Dessert</span></h1>
+            <div class="cta-btns">
+                <button id="first-btn" onclick="removeBtn()">Join</button>
+                <button id="second-btn">Login</button>
+            </div>
+        </div>
+        <div class="banner">
+            <input id="dessert-choice" type="text" placeholder="SEARCH">
+            <button id="search" onclick="dessertSearch()">GO</button>
+            <ul>
+                <li><img class="dessert-imgs" src="./imgs/cake.png" alt="cake"><p>Cakes</p></li>
+                <li><img class="dessert-imgs" src="./imgs/cookie.png" alt="cookies"><p>Cookies</p></li>
+                <li><img class="dessert-imgs" src="./imgs/ice-cream.png" alt="ice-cream"><p>Ice Cream</p></li>
+                <li><img class="dessert-imgs" src="./imgs/pie.png" alt="pie"><p>Pies</p></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="left-side">
+                <h2>Recipe of the Day</h2>
+                <img id="main-img" src="./imgs/orange-tart.jpg" alt="orange-tart">
+                <p>Orange Team Jelly Tart</p>
+                <p>by: <a href="#">yuripiano</a></p>
+                <div class="likes">
+                    <!-- <img class="heart-icon" src="./imgs/heart.png" alt="heart-icon"> -->
+                <input id="heart-icon" onclick="incrementLikes()" name="HB1" type="image" src="./imgs/heart.png">
+                <p id="orange-tart-likes">0</p>
+                </div>
+                <p><a href="#">See Full Recipe</a></p>
+            </div>
+            <div class="right-side">
+                <h3>Recommended for you:</h3>
+                <div class="mac">
+                    <img src="./imgs/macarons.jpg" alt="macrons">
+                <p>Macarons</p>
+                <p>by <a href="#">EmilieW</a></p>
+                </div>
+                <div class="likes">
+                    <img class="heart-icon" src="./imgs/heart.png" alt="heart-icon">
+                <h4 id="macarons-likes">0</h4>
+                </div>
+                <div class="cb">
+                    <img src="./imgs/creme-brulee.jpg" alt="creme-brulee">
+                    <p>Créme Brûlée</p>
+                    <p>by: <a href="#">MarisaG</a></p>
+                </div>
+                <div class="likes">
+                    <img class="heart-icon" src="./imgs/heart.png" alt="heart-icon">
+                    <h4 id="creme-brulee-likes">0</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+
+<!-- <h3 id="count-el">0</h3>
+    <button class="pet-btn" id="increment-btn" onclick="increment()">Pet Pepper</button> -->
